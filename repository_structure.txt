@@ -1,0 +1,25 @@
+PyExeForge/
+│
+├── setup.py                 # Main setup script
+├── requirements.py          # Requirements installer
+├── launch_converter.bat     # Windows launcher
+├── launch_converter.sh      # Unix launcher
+├── python-to-exe_converter.py  # Main application
+│
+├── docs/
+│   ├── readme.html         # HTML documentation
+│   └── readme.txt          # Text documentation
+│
+├── .github/
+│   └── workflows/          # CI/CD configurations
+│
+├── tests/                  # Test files
+│   └── test_converter.py
+│
+├── examples/               # Example Python scripts
+│   └── sample_script.py
+│
+├── .gitignore             # Git ignore file
+├── LICENSE                # License file
+├── README.md             # Main README
+└── requirements.txt       # Package dependencies
