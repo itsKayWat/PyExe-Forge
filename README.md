@@ -1,35 +1,43 @@
-# PyExeForge
-## Overview
+# PyExeForge - Python to EXE Converter
 
-PyExeForge is a modern, user-friendly GUI tool designed to convert Python scripts into standalone executable files.
-Built with educators, developers, and students in mind, it simplifies the process of distributing Python applications.
+## OVERVIEW
+PyExeForge is a GUI tool that converts Python scripts into standalone executable files. 
+It features a modern dark emerald theme, real-time progress tracking, and intuitive controls.
 
-## Why PyExeForge
+## PURPOSE
+* Simplify Python script distribution
+* Enable sharing applications with non-Python users
+* Provide a user-friendly alternative to command-line tools
+* Support both educational and professional development needs
 
-* Simple, intuitive interface
-* Real-time conversion progress tracking
-* Dark emerald theme for reduced eye strain
-* Support for both single-file and directory-based executables
-* Options for console and window-based applications
-
-## Requirements
-
+## REQUIREMENTS
 * Python 3.7 or higher
 * Windows operating system
-* Internet connection for initial setup
+* Internet connection (for initial setup)
+* 500MB free disk space
 
-## Installation
+## INSTALLATION
+1. Clone/download the repository
+2. Run: `python setup.py`
+3. Launch using: `launch_converter.bat`
 
-1. Clone the repository or download the source code
-2. Run `python setup.py` to create the virtual environment and install dependencies
-3. Launch the converter using `launch_converter.bat`
-  
-## Use Case Example
+## USAGE
+1. Select your Python script
+2. Choose output directory
+3. Select conversion options:
+   - One File/One Directory
+   - Console Based/Window Based
+4. Click Convert
+5. Wait for completion
+6. Find your executable in the selected output directory
 
-A teacher creates a Python-based educational game and wants to distribute it to students who don't have Python installed. Using PyExeForge, they can:
+## USE CASE EXAMPLE
+**Scenario:** A developer creates an internal tool for data processing  
+**Problem:** Team members don't have Python installed  
+**Solution:** Using PyExeForge to:
+1. Convert the tool to an executable
+2. Distribute single file to team
+3. Enable immediate use without Python installation
 
-1. Select their game script
-2. Choose an output location
-3. Select "Window Based" mode
-4. Click convert
-5. Distribute the resulting .exe file to students
+## SUPPORT
+For issues or questions, please open an issue on GitHub.
